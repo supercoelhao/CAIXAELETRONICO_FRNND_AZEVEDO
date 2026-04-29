@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 ?>
 
-<h1>Caixa Eletrônico PHP</h1>
+<h1>Caixa Eletrônico 2000</h1>
 
 <h3>Saldo Atual: R$ <?php echo number_format($_SESSION['saldo'], 2, ',', '.'); ?></h3>
 
